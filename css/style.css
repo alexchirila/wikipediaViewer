@@ -1,0 +1,123 @@
+body {
+		background-color: #E7E6E2;
+	}
+
+	button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    text-align: center;
+    outline:none;
+	}
+
+	.viewer-wrap {
+		text-align: center;
+	}
+
+	.page-title, .search-bar {
+		text-align: center;
+		
+	}
+
+	.wp-image {
+		background: url(http://schematic.ro/projects/wikipediaViewer/images/wikipedia-logo.png); 
+		width: 300px;
+		height: 289px;
+		margin: 0 auto;
+	}
+
+	@media screen and (max-width: 360px){
+		.wp-image {
+			background: url(http://schematic.ro/projects/wikipediaViewer/images/wikipedia-logo2.png); 
+    	width: 150px;
+		height: 145px;
+		margin: 0 auto 10px auto;
+
+		}
+	}
+
+	.wiki-form {
+		padding: 10px;
+	}
+
+	.wiki-search {
+		width: 300px;
+		height: 40px;
+		padding-left: 5px;
+	}
+
+	.btn1, .btn2, .btn3 {
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		font-size: 14px;
+		margin: 10px 10px 10px 20px;
+		color: #ffffff;
+		border: none;
+		box-shadow: 4px 4px 2px rgba(29, 37, 46, 0.4);
+
+		-webkit-transition: all 0.1s;
+		-moz-transition: all 0.1s;
+		transition: all 0.1s;
+
+		padding: 2px 3px 0 3px;
+	}
+
+	.btn1 {
+		background-color: #112B5E;
+	}
+
+	.btn2 {
+		
+		background-color: #A32938;
+	}
+
+	.btn3 {
+		
+		background-color: green;
+	}
+
+	.btn1:active, .btn2:active, .btn3:active {
+		position:relative;
+		box-shadow: none;
+	    top:2px;
+	    border: none;
+	}
+
+	.btn1:visited, .btn2:visited, .btn3:visited {
+		border: none;
+	}
+
+	.result-item {
+		font-family: 'Oswald', sans-serif;
+		text-align: left;
+		font-size: 20px;
+		-moz-border-bottom-colors: none;
+	    -moz-border-left-colors: none;
+	    -moz-border-right-colors: none;
+	    -moz-border-top-colors: none;
+	    border-color: #eee;
+	    border-image: none;
+	    border-radius: 3px;
+	    border-style: solid;
+	    border-width: 1px 1px 1px 5px;
+	    font-size: 18px;
+	    width: 90%;
+	    margin: 20px auto;
+	    padding: 20px;
+	    border-color: #eee #eee #eee #181b37;
+	    display: block;
+	    color: #181b37;
+	}
+
+	.result-item:hover {
+		border-color: #181b37 #181b37 #181b37 #181b37;
+		text-decoration: none;
+	}
+
+	.results a {
+		display: block;
+	}
+
+	.result-item span {
+		
+		font-weight: lighter;
+	}
